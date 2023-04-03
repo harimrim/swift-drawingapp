@@ -53,5 +53,16 @@ class RectanglePosition {
         return self.Y
     }
 }
+class IdRandomizer {
+    func randomString() -> String {
+        let letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+        var randomString = ""
+        for _ in 0..<9 {
+                let randomIndex = Int.random(in: 0..<letters.count)
+                let letter = letters[letters.index(letters.startIndex, offsetBy: randomIndex)]
+                randomString.append(letter)
+        }
+        return "\(randomString.prefix(3))-\(randomString.prefix(6).suffix(3))-\(randomString.suffix(3))"
+        }
 }
 
