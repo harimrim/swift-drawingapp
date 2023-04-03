@@ -6,13 +6,17 @@
 //
 
 import UIKit
+import OSLog
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+     
+        let rect1 = RectangleFactory.createRectangle()
+        os_log("\(rect1.description)")
     }
+}
 
 protocol RectangleComponent {
     var id:String { get }
@@ -53,6 +57,8 @@ class RectanglePosition {
         return self.Y
     }
 }
+
+
 class IdRandomizer {
     func randomString() -> String {
         let letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
