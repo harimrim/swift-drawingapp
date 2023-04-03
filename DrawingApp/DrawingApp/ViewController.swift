@@ -66,3 +66,20 @@ class IdRandomizer {
         }
 }
 
+class RectangleFactory {
+    static func createRectangle() -> Rectangle {
+        let id = IdRandomizer().randomString()
+        let size = RectangleSize()
+        let position = RectanglePosition(X: 0, Y: 0).randomPosition()
+        let backGroundColor = (red: Int.random(in: 0...255), green: Int.random(in: 0...255), blue: Int.random(in: 0...255))
+        let alpha = Int.random(in: 1...10)
+
+        return Rectangle(
+            id: id,
+            size: size,
+            position: position,
+            backGroundColor: backGroundColor,
+            alpha: alpha
+        )
+    }
+}
