@@ -33,5 +33,25 @@ class RectangleSize {
         return self.height
     }
 }
+class RectanglePosition {
+    private var X:Double
+    private var Y:Double
+    
+    init(X: Double, Y: Double) {
+        self.X = X
+        self.Y = Y
+    }
+    func randomPosition() -> RectanglePosition {
+        let x = Double.random(in: 0...UIScreen.main.bounds.width)
+        let y = Double.random(in: 0...UIScreen.main.bounds.height)
+        return RectanglePosition(X: x, Y: y)
+    }
+    func getPositionX() -> Double {
+        return self.X
+    }
+    func getPositionY() -> Double {
+        return self.Y
+    }
+}
 }
 
