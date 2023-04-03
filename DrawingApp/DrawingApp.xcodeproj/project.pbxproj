@@ -13,6 +13,7 @@
 		CC64773929D295A1009B7183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC64773729D295A1009B7183 /* Main.storyboard */; };
 		CC64773B29D295A3009B7183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC64773A29D295A3009B7183 /* Assets.xcassets */; };
 		CC64773E29D295A3009B7183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC64773C29D295A3009B7183 /* LaunchScreen.storyboard */; };
+		CC64774629D5CD7B009B7183 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC64774529D5CD7B009B7183 /* Rectangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CC64773A29D295A3009B7183 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC64773D29D295A3009B7183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC64773F29D295A3009B7183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC64774529D5CD7B009B7183 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				CC64773129D295A1009B7183 /* AppDelegate.swift */,
 				CC64773329D295A1009B7183 /* SceneDelegate.swift */,
 				CC64773529D295A1009B7183 /* ViewController.swift */,
+				CC64774529D5CD7B009B7183 /* Rectangle.swift */,
 				CC64773729D295A1009B7183 /* Main.storyboard */,
 				CC64773A29D295A3009B7183 /* Assets.xcassets */,
 				CC64773C29D295A3009B7183 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				CC64773629D295A1009B7183 /* ViewController.swift in Sources */,
 				CC64773229D295A1009B7183 /* AppDelegate.swift in Sources */,
 				CC64773429D295A1009B7183 /* SceneDelegate.swift in Sources */,
+				CC64774629D5CD7B009B7183 /* Rectangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
