@@ -14,6 +14,13 @@ class ViewController: UIViewController {
         
     }
 
+protocol RectangleComponent {
+    var id:String { get }
+    var size:RectangleSize { get }
+    var position:RectanlgePosition { get }
+    var backGroundColor:(red:Int, green:Int, blue:Int) { get }
+    var alpha:Int { get }
+}
 
 }
 
