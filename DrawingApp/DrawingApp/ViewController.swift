@@ -22,5 +22,16 @@ protocol RectangleComponent {
     var alpha:Int { get }
 }
 
+class RectangleSize {
+    private var width:Double = 150
+    private var height:Double = 120
+    
+    func getWidth() -> Double {
+        return self.width
+    }
+    func getHeight() -> Double {
+        return self.height
+    }
+}
 }
 
